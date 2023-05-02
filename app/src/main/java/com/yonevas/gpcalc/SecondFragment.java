@@ -106,7 +106,7 @@ public class SecondFragment extends Fragment {
                     totalLoad += 0;
                 }
             }
-            double totalUnit = unit[1] + unit[2] + unit[3] + unit[4] + unit[5] + unit[6] + unit[7] + unit[8] + unit[9];
+            double totalUnit = unit[0] + unit[1] + unit[2] + unit[3] + unit[4] + unit[5] + unit[6] + unit[7] + unit[8];
             if (totalLoad == 0) {
                 Toast.makeText(requireContext(), "Please enter at least one score\nand its corresponding credit unit", Toast.LENGTH_LONG).show();
             } else {
