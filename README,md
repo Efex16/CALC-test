@@ -23,6 +23,24 @@ This project was solely written by Elijah Efe-Osadolor (Efex16).
 
 ## Technologies
 
+### Compiller
+
+- Extensible Markup Language (XML) 1.0
+
+### Tools
+
+- Android Studio
+
+### Programming Language
+
+- Java
+
+### List of libraries
+
+- https://developer.android.com/topic/libraries/support-library/androidx-rn
+
+
+
 To start using this web application, visit lyricsforlearning.net. To install it, simply clone this repository. You can start the app by running `web_app.app` and `api.v1.app` as Python modules in separate terminal windows. Please note, in order to run this app, you will need to install necessary dependencies as well as pass in the correct MySQLdb and Words API credentials respectively.
 
 ## Challenge
