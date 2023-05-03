@@ -15,17 +15,25 @@
 
 ## GP_CALC
 
-Before I discovered my passion for software engineering, I was a middle school special educator in Brooklyn, NY. As a teacher, I found that music was such a powerful way to help my students learn language since they all had a natural connection to it and it provided a context for their learning. Drawing from my experiences in the classroom, I was inspired to create Lyrics For Learning.
-
-Initially, Lyrics for Learning was going to solely allow students to check out linguistic breakdowns for words within songs. However, after reflecting upon how I leveraged music in my own classroom and getting feedback from other teachers, I decided to also allow users to share their own interpretations of what words mean within songs. By exploring both the literal and figurative meaning of words in songs they know, students can deepen their understanding of the English language in a context that is familiar to them.
+GP_CALC is an android app that can accept inputted courses score and calculate the Grade Point Average (GPA) of a maximum of 9 courses being offered on a grade scale of 4.00 and 5.00.
 
 ## Team
+
+This project was solely written by Elijah Efe-Osadolor (Efex16). 
 
 ## Technologies
 
 To start using this web application, visit lyricsforlearning.net. To install it, simply clone this repository. You can start the app by running `web_app.app` and `api.v1.app` as Python modules in separate terminal windows. Please note, in order to run this app, you will need to install necessary dependencies as well as pass in the correct MySQLdb and Words API credentials respectively.
 
 ## Challenge
+
+- This portfolio is targetted at solving and making it easy for calculation of Grade Point Average (GPA) by only administrative authorized person.
+
+- This portfolio will not solve the issue of inputting the calculated GPA into a database for documentation. it's basically for calculating GPA.
+
+- This portfolio is targetted on academic administrative staffs who are sattled with the responsibility of calulating departmental GPA of students before final inputation into the school database.
+
+- This project is relevant to higher institution setting, both the institutionS scaling on 4.00 GPA and 5.00 GPA.
 
 ## Risks
 
@@ -48,6 +56,10 @@ Licenses for images from Wikimedia Commons:
 * [Paul Simonon The Clash September 20 1979 Palladium NYC.jpg](https://commons.wikimedia.org/wiki/File:Paul_Simonon_The_Clash_September_20_1979_Palladium_NYC.jpg)
 
 ## Future
+
+- In expanding the functionality of the portfolio, i intend to integrate a student log-in where student can only have access to their GPA score. 
+
+- I intend in integrating a link for the output of the portfolio to be an input to the school result database.
 
 [Github](https://github.com/efex16)
 [LinkedIn](https://www.linkedin.com/in/david-kwan-1b0930129/)
