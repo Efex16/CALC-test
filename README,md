@@ -41,6 +41,63 @@ This project was solely written by Elijah Efe-Osadolor (Efex16).
 
 
 
+Visual Studio Code vs Android Studio – Functionality, Search and Source Control
+Visual Studio Code vs Android Studio – Functionality, Search and Source Control
+Mar 17, 2020
+Use M1 Mac mini VMs by default with Codemagic🚀 
+When it comes to the tools we use to develop our Flutter apps, there are two main contenders. It usually boils down to either Visual Studio Code or Android Studio. In this article, Lewis Cianci compares these two tools in three key areas.
+
+Years ago, there weren’t many choices when it came to Integrated Development Environments (IDE). In the early days, there were languages like Visual Basic 6 which had to be written in Visual Studio and that was it.
+
+Nowadays, we have choices to make, not only related to what languages and frameworks we use to make our apps, but also the tooling that we use to accomplish this task. This topic is somewhat surprisingly hotly contested, with people avidly defending “their” IDE and plugins over another IDE.
+
+
+⚙ Functionality: How easy is it is to get around my code? Can I tear tabs off and work on my code with more than one window open at a time?
+🔎Search: Is it straightforward to find where a certain widget has been used in my app? If I forget the implementation of something, can I easily search and find if it has been used somewhere else?
+👩‍💻 Source control: Does the source control solution make it easy to see changes and differences?
+Functionality
+Visual Studio Code
+Visual Studio Code is an editor that favors simplicity over having an endless assortment of bells and whistles. Most of the functionality is exposed by typing in the thing you need into the top search bar.
+
+Visual Studio Code
+
+Everything you would expect to be there is there: debugging, breakpoints, etc.
+
+However, something that I have been doing for years in every IDE that I have used is to tearing off the tabs from the top. This is invaluable, as at various times I can effectively work on two parts of my app at the same time.
+
+Visual Studio Code can’t do this and it doesn’t seem like it’s getting this functionality any time soon. You can split your tabs so that one window is split down the middle or you can try to reopen the same project in another instance of Visual Studio Code. But you can’t just tear the tabs off.
+
+The practical effect of this is that if you are working between your services and your UI layer, you have to switch back and forth between both files until you eventually solve the issue.
+
+Android Studio
+Android Studio is more of a “kitchen sink” approach to an IDE. Google licensed IntelliJ IDEA and used it to make Android Studio. Software developers have been using it to make apps for Android for a very long time.
+
+In terms of tearing the tabs off: Well, you just do it. You just pick one up, drag it off, and you’re done. You can put these onto alternate screens – whatever you want. Any comparable solution to doing this in Visual Studio Code (that’s as easy as just grabbing the tab and moving it to where you want it) doesn’t seem to exist, at least not at the time of writing.
+
+For me personally, this is enough to make me want to use Android Studio by itself, but let’s press on.
+
+Searching in the project
+Visual Studio Code
+Visual Studio Code has the ability to “search anywhere” in the project when the user presses CTRL+SHIFT+F. Search anywhere
+
+As we can see, I’ve searched for Sonder, and on the left-hand side of this window we have all the results. You can move backwards and forwards through them with F4 and SHIFT+F4. It’s certainly functional.
+
+The only gripe I have with this search feature is that you tend to lose a lot of context when searching. We’re restricted to looking at each and every result of our search here, either by clicking on a specific result or using hotkeys to move through them. Afterwards, we can get back to where we were by clicking on the appropriate tab up at the top or hitting ALT+LEFT ARROW until we get back to where we were. Sometimes when I do that, I forget where I was up to and what I was doing initially.
+
+Android Studio
+Again, CTRL+SHIFT+F. But this time, we get a dedicated search dialog. It looks like this:
+
+Search dialog
+
+If we search for something, like Sonder, we get the results in this dialog:
+
+Search results
+
+Pressing the up or down cursors here will show us results from that particular file, as well as the 8–9 lines on either side of that search result. Search results
+
+Sometimes, I’m searching for an implementation of a certain widget or function, and then I just quickly hit CTRL+SHIFT+F to bring up this dialog. Doing so, I can quickly move through the list by using the up and down arrows, and when I have found what I’m looking for, I can just hit escape to go back to the file I was working on initially. In terms of productivity, I find this is more powerful and faster.
+
+
 To start using this web application, visit lyricsforlearning.net. To install it, simply clone this repository. You can start the app by running `web_app.app` and `api.v1.app` as Python modules in separate terminal windows. Please note, in order to run this app, you will need to install necessary dependencies as well as pass in the correct MySQLdb and Words API credentials respectively.
 
 ## Challenge
