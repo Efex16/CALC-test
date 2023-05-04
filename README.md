@@ -87,9 +87,12 @@ I built an internal RESTful API for this web application so that data can be fle
      
 ## Infrastructure
 
-Beyond this initial MVP which was built in 2 weeks, I would like to continue to add many more features to Lyrics For Learning. In particular, I would like to setup an authentication system. With this, I would also like to enable users to have profiles so they can check out their past progress and further personalize the experience by suggesting songs and words to explore based on past use. In addition, I'd like to allow users to edit past submissions and upvote each other's interpretations as well. I am also considering adding a "Top Users" board on the homepage too.
+- All my code is been written and compilled in Android studio and it's been push to a github repository cloned for proper documentation.
 
-If you have any feedback (ex: feature ideas) or would like to contribute to this project, please feel free to contact me.
+- I intend to populate the app by sharing the built akp app-debug file.
+
+- An android phone will be configured to accept usb debugging via the developer setting of the phone for testing purpose during the developing of the app or alternatively an APK file will be built for direct installation on any android phone for testing purpose.
+
 
 ## Existing Solutions
 
